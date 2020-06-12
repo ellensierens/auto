@@ -1,4 +1,4 @@
-var socket = require('socket.io-client')('http://192.168.3.101:8081');
+var socket = require('socket.io-client')('https://evening-caverns-60077.herokuapp.com/');
 const { Board, Servo, Motors } = require("johnny-five");
 let servo;
 let motors;
