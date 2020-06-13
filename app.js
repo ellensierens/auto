@@ -27,7 +27,7 @@ board.on("ready", function () {
   gps = new GPS({
     pins: {
       rx: 11,
-      tx: 9,
+      tx: 10,
     }
   });
 
